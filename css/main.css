@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&display=swap');
+
+body {
+  font-family: "Jersey 25", PLACEHOLDER;
+  font-weight: 400;
+  font-style: normal;
+  color: #FFFFFF;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  z-index: 0;
+}
+
+body::before {
+  inset: 0;
+  background:
+    linear-gradient(180deg,
+      rgba(9, 50, 0, 0.95) 0%,
+      rgba(9, 50, 0, 0.95) 40%,
+      rgba(9, 50, 0, 0.95) 100%),
+    url("../assets/img/watire-astralmelody-commission.png") center 30% / cover no-repeat;
+}
+
+header, main, footer {
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 2px 8px #000000;
+}
+
+main {
+  width: 100%;
+  max-width: 50rem;
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  text-align: left;
+}
+
+section {
+  background: rgba(0, 0, 0, 0.35);
+  border: 2px solid #3E8F2A;
+  box-shadow: 4px 4px 0 #000000;
+  padding: 1rem 1.25rem;
+}
+
+section h3 {
+  font-size: 200%;
+  font-weight: 400;
+  margin: 0 0 0.5rem;
+  color: #9CFF7A;
+}
+
+section p {
+  font-size: 150%;
+  margin: 0.5rem 0;
+}
+
+
+header h1 {
+  font-size: 300%;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+header h2 {
+  font-size: 200%;
+  margin-top: 0;
+}
+
+
+header p a{
+  font-size: 150%;
+  color: #FFFFFF;
+}
+
+footer {
+  font-family: "Jersey 25", PLACEHOLDER;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  margin-top: auto;
+}
+
+footer a {
+  color: #FFFFFF;
+}
+
+section ul {
+  font-size: 150%;
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+section a {
+  color: #9CFF7A;
+}
